@@ -382,7 +382,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 540px) {
    
     .single-item {
         width: 50%;
@@ -400,9 +400,13 @@ footer {
     .single-card {
         margin-bottom: 1rem;
     }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 320px) {
     .single-item {
         width: 100%;
     }
